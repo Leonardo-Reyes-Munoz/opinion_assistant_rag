@@ -14,9 +14,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${workSans.className} antialiased bg-darkBlue flex flex-col min-h-screen`}
+        className={`${workSans.className} antialiased min-h-screen flex flex-col`}
       >
-        <main className="flex-grow bg-secondary ">{children}</main>
+        <main className="flex-1 flex flex-col">{children}</main>
 
         <footer className="text-center py-4 bg-gray-900 text-gray-400">
           © {new Date().getFullYear()} Leonardo Reyes. All rights reserved.
