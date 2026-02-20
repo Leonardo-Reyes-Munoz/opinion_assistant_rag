@@ -1,7 +1,9 @@
+import Banner from '../components/banner';
+
 export default async function Chat() {
   return (
-    <>
-      <h1>Hello from chat</h1>
-    </>
+    <div className="bg-background">
+      <Banner />
+    </div>
   );
 }
